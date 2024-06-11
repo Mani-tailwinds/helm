@@ -1,12 +1,12 @@
-##To convert .yaml file into helm chart use
+## To convert .yaml file into helm chart use
 
-cat deployment.yaml | helmify mongodb
+- cat deployment.yaml | helmify mongodb
 
-##Now your helm chart is ready. Deploy your mongodb helm chart with helm install command.
+## Now your helm chart is ready. Deploy your mongodb helm chart with helm install command.
 
-helm install mongodb
+- helm install mongodb
 
-##other commands
+## other commands
 
 Example 1: 'kustomize build <kustomize_dir> | helmify mychart' 
   - will create 'mychart' directory with Helm chart from kustomize output.
